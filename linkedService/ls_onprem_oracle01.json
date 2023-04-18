@@ -1,0 +1,16 @@
+{
+	"name": "ls_onprem_oracle01",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Oracle",
+		"typeProperties": {
+			"connectionString": "host=localhost;port=1521;sid=Orcl;user id=sh",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0ZDlhNTIxNy0yMThkLTQyOTItYjgxMC01YTJhZGZhODQ2M2QiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostedIRVikas01",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
